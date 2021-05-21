@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cursor Art</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <script src="./art.js"></script>
+    </head>
+
+    <body>
+        <div style="user-select: none;">
+            <div class="heading-grid">
+              <p><a href="https://shwimmy-james-shwee.github.io/index.html" style="text-decoration: none; color: white;">HOME</a>
+                 <a href="https://shwimmy-james-shwee.github.io/index.html#blog-snippet-section" style="text-decoration: none; color: white; margin-left: 10px;">BLOG</a> 
+              </p>
+              <h1 class="grey-red-titlebox">Rainbow Painter</h1> 
+              <img class="tiny-image" style="justify-self: right;" src="https://media.tenor.com/images/28f6cf0ba94a41aa6e89a14585356300/tenor.gif" alt="this was meant to be a cool gif, oh well.">
+            </div>
+      
+            <h4 class="center-text" style="margin-top: -3px; color: white;">Click to paint the colours of the rainbow, use spacebar to reset the canvas</h4>
+            <p class="center-text" style="margin-top: -3px; color: white;">Due to the way i coded this, moving the mouse too fast will create gaps in the trail. Too much drawing may also slow the browser.</p>
+        </div>
+
+        <!-- create a start button that calls a JS function 
+
+        this function tracks the mouse position every 0.5 seconds or so and then creates an html element (circle) at that exact position, this function then calls 
+        another function that sets that circle to a the starting RGB colour of the rainbow, the next element to be set should then incrementally increase the rgb colour 
+        along the colours of the rainbow each time an element is created respectively
+
+        could set a right click to clear the page and remove all the created elements to start again 
+    
+        could also set a limit to amount of elements and when reached the inital ones are removed-->
+    
+
+        <div id="canvas">
+
+
+        </div>
+        
+
+
+    </body>
+
+
+</html>
